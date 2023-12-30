@@ -1,0 +1,123 @@
+
+@font-face {
+    font-family: 'B Yekan+';
+    src: url('../fonts/BYekan.woff2') format('woff2'),
+        url('../fonts/BYekan.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{background-color:#fafafa;
+    font-family: 'B Yekan+';
+
+}
+.container{
+    margin:0 auto;  
+    width:935px;
+  
+}
+.w-50 {
+    width: 50%;
+}
+.text-center{
+    text-align: center;
+    direction:rtl;
+}
+img {
+    max-width: 100%;
+}
+#home-page {
+    margin-top: 146px;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+   
+}
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+ul{
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(55, 55, 55);
+}
+.link{
+    display: block;
+    margin-top:20px;
+}
+
+
+
+.box input {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 6px;
+    border-radius: 5px;
+    outline: none !important;
+    border: 1px solid #dbdbdb;
+    text-align: right;
+    font-family:  'B Yekan+';
+}
+input[type="button"]{
+    text-align: center;
+    background-color: rgb(233, 241, 243);
+    width: 260px;
+    padding: 6px;
+}
+input[type="text"]{
+    margin-top: 20px;
+}
+#upBox {
+    margin-top: 72px;
+    margin-bottom: 10px;
+    padding: 30px 0px;
+    font-size: small;
+}
+#downBox{
+    padding: 20px 0px;
+}
+#download{
+    width: 350px;
+    margin-top: 20px;
+    
+}
+#download img{
+    max-width: 136px;
+    margin-top: 10px;
+}
+.footer ul li a {
+    padding: 8px;
+}
+.footer{
+    display: flow-root;
+    clear: both;
+    text-align: center;
+   
+   
+    
+}
+.footer ul li{
+    float:left;
+    padding: 10px;
+    font-size: small;
+    display: contents;
+    padding: 30px;
+   
+    
+
+}
+
+
